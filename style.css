@@ -81,3 +81,20 @@ h1 {
 .profession {
   color: #36b37e;
 }
+
+.socilaLinks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: 102.42;
+  margin-right: 102.42;
+  height: 20px;
+  margin-bottom: 70px;
+}
+
+.socilaLinks li {
+  margin: 10px;
+}
