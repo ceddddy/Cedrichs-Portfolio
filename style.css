@@ -9,7 +9,7 @@ body {
   background-color: white;
 }
 
-.navbar {
+.header {
   margin: 10px;
   padding: 10px;
   display: flex;
@@ -23,20 +23,25 @@ body {
   padding: 0;
 }
 
-.navbar h2 {
+.header h2 {
   color: #28352f;
   font-style: normal;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
+  text-decoration: none;
 }
 
-.navbar i {
+.header i {
   color: #28352f;
 }
 
-.navbar .navItem {
+.header-text {
+   text-decoration: none;
+}
+
+.header .navItem {
   text-decoration: none;
 }
 
