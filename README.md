@@ -79,9 +79,9 @@ To run the project, do the following:
 
 👤 **Cedrich**
 
-- GitHub: [@githubhandle](https://github.com/ceddddy)
-- Twitter: [@twitterhandle](https://twitter.com/CedyDev)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/cedrich-mandeya-4118a91a7/)
+- GitHub: [@ceddddy](https://github.com/ceddddy)
+- Twitter: [@CedyDev](https://twitter.com/CedyDev)
+- LinkedIn: [Cedrich Mandeya](https://www.linkedin.com/in/cedrich-mandeya-4118a91a7/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,9 +89,8 @@ To run the project, do the following:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ My Recent Works ] **[new_feature_1]**
-- [ About Me ] **[new_feature_2]**
-- [ My Resume ] **[new_feature_3]**
+- [ Testimonials ] **[new_feature_1]**
+- [ Personal Projects] **[new_feature_2]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
