@@ -196,12 +196,6 @@ h1 {
   border-radius: 4px;
 }
 
-.language-text {
-  width: 337px;
-  height: 32px;
-
-}
-
 .tag-css{
   display: flex;
   flex-direction: row;
@@ -246,7 +240,6 @@ h1 {
   gap: 10px;
   width: auto;
   height: auto;
-  left: calc(50% - 122px/2);
   bottom: 8px;
   background: #36b37f;
   border-radius: 4px;
@@ -288,7 +281,7 @@ h1 {
 }
 
 .aboutMe {
-  background-image: url("images/illustration-\ about\ me-\ mobile.svg");
+  background-image: url("images/illustration-\ about\ me-\mobile.svg");
   display: flex;
   flex-direction: column;
   justify-content: center;
