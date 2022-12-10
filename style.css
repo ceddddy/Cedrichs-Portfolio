@@ -251,6 +251,12 @@ h1 {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: 0;
+}
+
+.button:hover {
+  background-color: #008552;
+  cursor: pointer;
 }
 
 .project-title {
@@ -509,6 +515,7 @@ h1 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  margin-left: 50px;
 }
 
 .selenium {
