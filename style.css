@@ -121,18 +121,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* .card-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  height: fit-content;
-  place-content: center;
-  margin-top: 58px;
-  border: 2px solid red;
-} */
-
 .card-container {
   display: flex;
   flex-direction: column;
@@ -545,6 +533,9 @@ h1 {
   border-radius: 0;
   padding: 64px 24px 64px 24px;
   gap: 58px;
+  background-image: url("images/illustration-contact-form.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .section-contact-form .div-heading-form {
@@ -596,6 +587,7 @@ h1 {
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+  padding: 15px 16px;
 }
 
 .section-contact-form div .contact-form div fieldset input[type="text"]:hover {
@@ -618,6 +610,7 @@ h1 {
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+  padding: 15px 16px;
 }
 
 .section-contact-form div .contact-form div fieldset input[type="email"]:hover {
@@ -640,6 +633,7 @@ h1 {
   letter-spacing: 0;
   text-align: left;
   color: #6b778c;
+  padding: 15px 16px;
 }
 
 .section-contact-form div .contact-form div fieldset textarea:hover {
@@ -676,10 +670,36 @@ h1 {
 }
 
 .section-contact-form .contact-form-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 326px;
 }
 
 .email-footer {
+height: 189px;
+width: 375px;
+border-radius: nullpx;
+margin-top: 34px;
+margin-bottom: 115px;
 }
 
 .email-footer .heading-footer {
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color: #42526E;
+}
+
+.rounded {
+  border-top: 8px solid black;
+  border-radius: 5px;
+  width: 35%;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
 }
