@@ -83,6 +83,12 @@ To run the project, do the following:
 - Twitter: [@CedyDev](https://twitter.com/CedyDev)
 - LinkedIn: [Cedrich Mandeya](https://www.linkedin.com/in/cedrich-mandeya-4118a91a7/)
 
+👤 **Marcelo**
+
+- GitHub: [@chelobotix](https://github.com/chelobotix)
+- Twitter: [@marceloalarconb](https://twitter.com/marceloalarconb/)
+- LinkedIn: [Marcelo Alarcon](https://www.linkedin.com/in/marceloalarconb/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
