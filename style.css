@@ -275,7 +275,8 @@ h1 {
 }
 
 .aboutMe {
-  background-image: url("images/illustration-\ about\ me-\mobile.svg");
+  background-image: url("images/illustration-\ about\ me-\ mobile.svg");
+  background-position: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -283,6 +284,14 @@ h1 {
   background-repeat: repeat;
   align-items: center;
   margin-bottom: 68px;
+}
+
+.h1-background {
+  background: url("images/illustration\ 1-\ about\ me-mobile.svg");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 375px;
 }
 
 .languages-card {
@@ -434,6 +443,108 @@ h1 {
   margin-right: auto;
 }
 
+.skills-tag-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 303px;
+  height: 88px;
+}
+
+.codekit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 72px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 67px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.codepen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 79px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.gitlab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 61px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.terminal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 77px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .bootstrap {
   display: flex;
   flex-direction: row;
@@ -570,6 +681,8 @@ h1 {
 .section-contact-form div .contact-form div {
   width: 327px;
   border-radius: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .section-contact-form div .contact-form div fieldset {
@@ -645,20 +758,15 @@ h1 {
   border: 1px solid #60c095;
 }
 
-.section-contact-form div .contact-form div {
-  display: flex;
-  justify-content: center;
-}
-
-.section-contact-form div .contact-form div .btn-form {
+.btn-form {
   padding: 12px;
   gap: 10px;
   width: auto;
   height: auto;
   bottom: 8px;
-  background: #36b37f;
   border-radius: 4px;
   color: #fff;
+  background: #36b37f;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -669,32 +777,45 @@ h1 {
   border: 0;
 }
 
+.btn_effects:hover {
+  background-color: #008552;
+  cursor: pointer;
+}
+
+.btn_effects:active {
+  background: #008552;
+}
+
 .section-contact-form .contact-form-icons {
   display: flex;
   justify-content: center;
+  text-align: center;
   padding-top: 50px;
   width: 326px;
 }
 
 .email-footer {
-height: 189px;
-width: 375px;
-border-radius: nullpx;
-margin-top: 34px;
-margin-bottom: 115px;
+  height: 189px;
+  width: 375px;
+  border-radius: nullpx;
+  margin-top: 34px;
+  margin-bottom: 115px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .email-footer .heading-footer {
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: center;
-color: #42526E;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #42526e;
 }
 
 .rounded {
-  border-top: 8px solid black;
+  border-top: 6px solid black;
+  margin-bottom: 5px;
   border-radius: 5px;
   width: 35%;
 }
